@@ -3,4 +3,17 @@ I used "Power Apps" from Office 360 Apps for this project.
 You can find the app below  
 https://apps.powerapps.com/play/e/default-787048c4-ce0e-4446-81e0-2fa0524ec702/a/1ba9459b-e550-4bf6-9634-31ccfe75dce3?tenantId=787048c4-ce0e-4446-81e0-2fa0524ec702  
   
+Learning and Challenges:  
+1. Make excel cells into table by Selecting the entire column --> Insert --> Table --> OK  
+2. While I was trying to add file from Excel Source, I got an error as "the file you tried to open isn't a power apps file. to open an app, choose an .msapp file."  
+    To solve this, you need to first save the (excel)file on Cloud and login into your cloud platforms(e.g. Onedrive) in Power Apps as well so that you can load the  
+    file easily.  
+3.Do not keep the file open while loading the file into Power Apps, as it locks the file from being accessed resulting in incomplete data loading.  
+
+Why SharePoint List is a better source than Excel file?  
+1. Excel has limitations over rows.  
+2. There is no file locking when someone is accessing the file.  
+3. Can look up for user names.  
+4. Data Types are uploaded along the data load.  
+5. Choices and dropdown options are automatically filled.  
   
